@@ -10,3 +10,10 @@ staticfiles/
 data/
 *.log
 .DS_Store
+
+.sudo_as_admin_successful
+.profile
+.bashrc
+.bash_logout
+.bash_history
+.cache/
