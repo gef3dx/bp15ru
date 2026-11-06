@@ -1,0 +1,5 @@
+-r requirements.txt
+# Gunicorn is for Linux/macOS. Local Windows uses Django runserver.
+gunicorn>=25,<26; sys_platform != "win32"
+# Optional PostgreSQL backend, configured through DB_ENGINE=postgresql.
+psycopg[binary]>=3.2,<4

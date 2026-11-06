@@ -1,0 +1,18 @@
+{
+  "source_archive": "BURO_travel_FINAL_Netlify(1).zip",
+  "source_url": "https://2026-buro-1.netlify.app/",
+  "source_archive_sha256": "c461683b2ea689ae6e1ef6aceb042c6bb550705778cbf5f8cbf7159336830384",
+  "pages": {
+    "home": "index.html",
+    "bureau": "bureau/index.html",
+    "ossetia": "ossetia/index.html",
+    "dmc-mice": "dmc-mice/index.html",
+    "programs": "programs/index.html",
+    "exclusive": "exclusive/index.html",
+    "contacts": "contacts/index.html"
+  },
+  "asset_count": 179,
+  "changed_assets": [
+    "js/site.js"
+  ]
+}

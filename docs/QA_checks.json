@@ -1,0 +1,75 @@
+{
+  "method": "Offline HTML/JS checks using a Jinja2 syntax adapter. Django backend tests are not executed.",
+  "page_texts": {
+    "home": "identical",
+    "bureau": "identical",
+    "ossetia": "identical",
+    "dmc-mice": "identical",
+    "programs": "identical",
+    "exclusive": "identical",
+    "contacts": "identical"
+  },
+  "resources": {
+    "home": "no missing direct local references",
+    "bureau": "no missing direct local references",
+    "ossetia": "no missing direct local references",
+    "dmc-mice": "no missing direct local references",
+    "programs": "no missing direct local references",
+    "exclusive": "no missing direct local references",
+    "contacts": "no missing direct local references"
+  },
+  "browser_comparisons": [
+    {
+      "page": "home",
+      "mode": "desktop full page, original image data",
+      "size": [
+        1440,
+        8170
+      ],
+      "same_pixels": true
+    },
+    {
+      "page": "bureau",
+      "mode": "desktop full page, original image data",
+      "size": [
+        1440,
+        4718
+      ],
+      "same_pixels": true
+    },
+    {
+      "page": "home",
+      "mode": "mobile viewport, equal thumbnail previews",
+      "size": [
+        390,
+        844
+      ],
+      "same_pixels": true
+    },
+    {
+      "page": "contacts",
+      "mode": "mobile viewport, equal thumbnail previews",
+      "size": [
+        390,
+        844
+      ],
+      "same_pixels": true
+    }
+  ],
+  "javascript_transport_tests": {
+    "method": "Actual site.js executed in Node with a DOM/network fixture; not a Django integration test.",
+    "results": [
+      "Success: endpoint + CSRF header + encoded fields + same-origin redirect PASS",
+      "Both form names PASS",
+      "HTTP error: shows validation, preserves fields, re-enables button PASS",
+      "Network failure: no success redirect PASS",
+      "Invalid server response rejected PASS",
+      "HTTP 200 without explicit ok rejected PASS",
+      "External redirect rejected PASS",
+      "Client-side phone validation PASS",
+      "Duplicate click blocked PASS"
+    ]
+  },
+  "django_integration_tests": "27 test methods provided, NOT EXECUTED: Django installation was blocked by package network/DNS restrictions.",
+  "source_assets_unchanged": 178
+}
